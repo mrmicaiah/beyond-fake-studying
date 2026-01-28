@@ -19,13 +19,10 @@ if (subscribeForm) {
         button.disabled = true;
         
         try {
-            const response = await fetch(`${CONFIG.apiBase}/subscribe`, {
+            const response = await fetch(`${CONFIG.apiBase}/${CONFIG.blogId}/subscribe`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    blogId: CONFIG.blogId,
-                    email: email
-                })
+                body: JSON.stringify({ email: email })
             });
             
             if (response.ok) {
@@ -83,13 +80,9 @@ async function toggleLike(postSlug) {
     const likeCount = document.querySelector('.like-count');
     
     try {
-        const response = await fetch(`${CONFIG.apiBase}/like`, {
+        const response = await fetch(`${CONFIG.apiBase}/${CONFIG.blogId}/posts/${postSlug}/like`, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                blogId: CONFIG.blogId,
-                postSlug: postSlug
-            })
+            headers: { 'Content-Type': 'application/json' }
         });
         
         if (response.ok) {
@@ -108,14 +101,14 @@ async function loadComments(postSlug) {
     if (!commentsList) return;
     
     try {
-        const response = await fetch(`${CONFIG.apiBase}/comments/${CONFIG.blogId}/${postSlug}`);
+        const response = await fetch(`${CONFIG.apiBase}/${CONFIG.blogId}/posts/${postSlug}/comments`);
         if (response.ok) {
             const comments = await response.json();
             commentsList.innerHTML = comments.map(comment => `
                 <div class="comment">
-                    <div class="comment-author">${escapeHtml(comment.author)}</div>
+                    <div class="comment-author">${escapeHtml(comment.name || comment.author)}</div>
                     <div class="comment-date">${formatDate(comment.createdAt)}</div>
-                    <div class="comment-text">${escapeHtml(comment.text)}</div>
+                    <div class="comment-text">${escapeHtml(comment.content || comment.text)}</div>
                 </div>
             `).join('') || '<p>No comments yet. Be the first!</p>';
         }
@@ -126,14 +119,13 @@ async function loadComments(postSlug) {
 
 async function submitComment(postSlug, author, text) {
     try {
-        const response = await fetch(`${CONFIG.apiBase}/comments`, {
+        const response = await fetch(`${CONFIG.apiBase}/${CONFIG.blogId}/posts/${postSlug}/comments`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                blogId: CONFIG.blogId,
-                postSlug: postSlug,
-                author: author,
-                text: text
+                postId: postSlug,
+                name: author,
+                content: text
             })
         });
         
