@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beyond Fake Studying</title>
+    <description>Learn how to trigger genuine curiosity so studying stops feeling like a grind and starts feeling like cheating.</description>
+    <link>https://beyond-fake-studying.untitledpublishers.com</link>
+    <atom:link href="https://beyond-fake-studying.untitledpublishers.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Jan 2026 00:00:00 GMT</lastBuildDate>
+    <!-- Posts will be added here -->
+  </channel>
+</rss>
