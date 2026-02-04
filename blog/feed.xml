@@ -5,9 +5,21 @@
     <link>https://beyond-fake-studying.untitledpublishers.com/blog/</link>
     <description>Learn how to trigger genuine curiosity so studying stops feeling like a grind and starts feeling like cheating.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Feb 2026 16:17:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 16:20:47 GMT</lastBuildDate>
     <atom:link href="https://beyond-fake-studying.untitledpublishers.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>The Science Behind Spaced Repetition Intervals</title>
+      <link>https://beyond-fake-studying.untitledpublishers.com/blog/the-science-behind-spaced-repetition-intervals.html</link>
+      <guid isPermaLink="true">https://beyond-fake-studying.untitledpublishers.com/blog/the-science-behind-spaced-repetition-intervals.html</guid>
+      <pubDate>Wed, 04 Feb 2026 16:20:45 GMT</pubDate>
+      <author>Micaiah Bussey</author>
+      <description><![CDATA[Spaced repetition works because of how your brain consolidates memory. Here's why the intervals matter—and how to set them right.]]></description>
+      <category>spaced repetition</category>
+      <category>memory</category>
+      <category>learning science</category>
+      <category>technique</category>
+    </item>
     <item>
       <title>Why Biology Feels Harder Than It Should</title>
       <link>https://beyond-fake-studying.untitledpublishers.com/blog/why-biology-feels-harder-than-it-should.html</link>
@@ -57,18 +69,6 @@
       <category>understanding</category>
       <category>principle</category>
       <category>study method</category>
-    </item>
-    <item>
-      <title>The Science Behind Spaced Repetition Intervals</title>
-      <link>https://beyond-fake-studying.untitledpublishers.com/blog/the-science-behind-spaced-repetition-intervals.html</link>
-      <guid isPermaLink="true">https://beyond-fake-studying.untitledpublishers.com/blog/the-science-behind-spaced-repetition-intervals.html</guid>
-      <pubDate>Tue, 03 Feb 2026 20:38:41 GMT</pubDate>
-      <author>Micaiah Bussey</author>
-      <description><![CDATA[Spaced repetition works because of how your brain consolidates memory. Here's why the intervals matter—and how to set them right.]]></description>
-      <category>spaced repetition</category>
-      <category>memory</category>
-      <category>learning science</category>
-      <category>technique</category>
     </item>
   </channel>
 </rss>
