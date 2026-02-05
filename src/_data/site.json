@@ -1,0 +1,50 @@
+{
+  "name": "Beyond Fake Studying",
+  "tagline": "Learn how to trigger genuine curiosity so studying stops feeling like a grind and starts feeling like cheating.",
+  "description": "Evidence-based study techniques that work with your brain, not against it.",
+  "url": "https://beyond-fake-studying.untitledpublishers.com",
+  "author": {
+    "name": "Micaiah Bussey",
+    "email": "studying@untitledpublishers.com"
+  },
+  "logo": "https://res.cloudinary.com/dxzw1zwez/image/upload/w_200/v1769579976/Logo_yckuz9.png",
+  "favicon": "https://res.cloudinary.com/dxzw1zwez/image/upload/w_32,h_32,c_fill/v1769579976/Logo_yckuz9.png",
+  "colors": {
+    "primary": "#E07020",
+    "primaryDark": "#C45F18",
+    "background": "#F5EDE0",
+    "surface": "#FFFFFF",
+    "text": "#2D2A26",
+    "textMuted": "#6B6560",
+    "border": "#E0D5C5"
+  },
+  "fonts": {
+    "serif": "Libre Baskerville",
+    "sans": "Inter"
+  },
+  "social": {
+    "twitter": "",
+    "instagram": "",
+    "linkedin": "",
+    "youtube": ""
+  },
+  "analytics": {
+    "ga4Id": "G-SXY1L7EFG0",
+    "facebookPixelId": "1219070769724619"
+  },
+  "api": {
+    "blogId": "beyond-fake-studying",
+    "workerUrl": "https://up-blogs-1.micaiah-tasks.workers.dev",
+    "courierListId": "4280233c-afd5-4f05-855d-a7e3afd2a333"
+  },
+  "navigation": [
+    { "label": "Home", "url": "/" },
+    { "label": "Archive", "url": "/archive/" },
+    { "label": "About", "url": "/about/" }
+  ],
+  "footerLinks": [
+    { "label": "RSS", "url": "/feed.xml" },
+    { "label": "Sitemap", "url": "/sitemap.xml" }
+  ],
+  "copyright": "Beyond Fake Studying. An Untitled Publishers blog."
+}
