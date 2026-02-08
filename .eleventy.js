@@ -6,12 +6,12 @@ module.exports = function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(pluginRss);
 
-  // Passthrough copy
-  eleventyConfig.addPassthroughCopy('src/css');
-  eleventyConfig.addPassthroughCopy('src/js');
-  eleventyConfig.addPassthroughCopy('src/images');
-  eleventyConfig.addPassthroughCopy('src/robots.txt');
-  eleventyConfig.addPassthroughCopy('src/CNAME');
+  // Passthrough copy (paths relative to input dir 'src')
+  eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy('js');
+  eleventyConfig.addPassthroughCopy('images');
+  eleventyConfig.addPassthroughCopy('robots.txt');
+  eleventyConfig.addPassthroughCopy('CNAME');
 
   // Date filters
   eleventyConfig.addFilter('readableDate', dateObj => {
