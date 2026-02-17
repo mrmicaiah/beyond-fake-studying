@@ -1,0 +1,73 @@
+---
+title: "The Science Behind Spaced Repetition Intervals"
+date: 2026-02-02
+excerpt: "Spaced repetition works because of how your brain consolidates memory. Here's why the intervals matter—and how to set them right."
+author: Micaiah Bussey
+tags:
+  - spaced repetition
+  - memory
+  - learning science
+  - technique
+---
+
+Here's what's weird about memory: the best time to review something is right before you forget it.
+
+Not after you've forgotten. Not while you still remember it perfectly. Right at the edge—when it's about to slip away but hasn't yet. That's where the magic happens.
+
+This is the mechanism behind spaced repetition, and understanding it changes how you think about study schedules entirely.
+
+## What's Actually Happening in Your Brain
+
+When you first learn something, the memory is fragile. It's encoded in your hippocampus, a temporary holding area. For that memory to become permanent, it needs to be consolidated—transferred to long-term storage in your cortex.
+
+Consolidation happens during sleep and during retrieval. Every time you successfully recall something, you're not just accessing the memory. You're strengthening the neural pathways that lead to it. You're rebuilding the memory slightly stronger than before.
+
+But here's the key: the strengthening effect is largest when retrieval is difficult.
+
+If you review something while it's still fresh, retrieval is easy. The pathways are already active. You're not building much new strength. It feels productive, but neurologically, not much is happening.
+
+If you wait until you've completely forgotten, there's nothing to retrieve. You're essentially learning from scratch. The previous encoding didn't help you.
+
+The sweet spot is in between. When the memory has faded enough that recall requires effort, but not so much that it's impossible. That effortful retrieval sends a signal to your brain: this information is important, keep it accessible.
+
+## Why the Intervals Expand
+
+This is why spaced repetition schedules use expanding intervals. The pattern typically looks something like: 1 day, 3 days, 7 days, 14 days, 30 days.
+
+Each successful retrieval strengthens the memory, which means it takes longer to fade to that optimal difficulty level. After your first review, the memory might start getting shaky after a day. After several reviews, it might hold strong for a month.
+
+The intervals aren't arbitrary. They're tracking the decay curve of your memory and scheduling the next review right before the curve drops too low.
+
+This is why cramming fails so spectacularly. When you review the same material five times in one night, each review is too easy. You're not getting the strengthening effect because retrieval isn't effortful. A week later, it's like you barely studied at all.
+
+Spaced repetition with the same five reviews—spread over weeks—produces dramatically better retention. Same total time. Completely different results.
+
+## The Forgetting Curve
+
+In 1885, Hermann Ebbinghaus memorized nonsense syllables and tracked how quickly he forgot them. He discovered that forgetting follows a predictable curve—steep at first, then gradually leveling off.
+
+More importantly, he found that each review flattens the curve. The memory still fades, but more slowly. After enough reviews, the curve becomes nearly horizontal. The information sticks.
+
+Modern research has confirmed and extended these findings. We now know that the optimal interval is roughly the point where you have about an 85-90% chance of successful recall. Hard enough to strengthen the memory. Not so hard that you fail and learn nothing.
+
+This is why the best spaced repetition apps track your performance and adjust intervals accordingly. If you're getting a card right every time, the interval extends. If you're struggling, it contracts. The algorithm is trying to keep you at that optimal difficulty level.
+
+## Setting Your Own Intervals
+
+You don't need an app to use spaced repetition, though apps make it easier. The core principle is simple: review right before you forget.
+
+For most material, a reasonable starting schedule is: same day, next day, three days later, one week later, two weeks later, one month later. Adjust based on how difficult the recall feels.
+
+If it's too easy—you remember instantly without effort—you waited too short. Extend the next interval.
+
+If it's too hard—you can't remember at all—you waited too long. Shorten the next interval.
+
+The goal isn't to never forget. The goal is to forget just enough that remembering takes work. That work is what builds lasting memory.
+
+## Try This
+
+Pick something you're trying to learn right now. Instead of reviewing it multiple times today, review it once. Then schedule your next review for tomorrow. Then three days after that.
+
+Pay attention to how the retrieval feels. Is it effortful? Good—that's where learning happens. Is it too easy? Wait longer next time. Is it impossible? You waited too long.
+
+Your brain already knows how to build lasting memories. Spaced repetition is just working with that system instead of against it.
